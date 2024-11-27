@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Asistencia Virtual</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .services, .portfolio, .contact {
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Servicios de Asistencia Virtual</h1>
+        <p>Proporciono servicios profesionales en remoto para empresas</p>
+    </header>
+    <nav>
+        <a href="#about">Presentación</a>
+        <a href="#services">Servicios</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <section id="about">
+        <h2>Presentación</h2>
+        <p>¡Hola! Soy [Tu Nombre], una asistente virtual con experiencia en la gestión de tareas administrativas, organización y soporte remoto. Mi objetivo es ayudar a las empresas a optimizar su tiempo y recursos.</p>
+    </section>
+    <section id="services" class="services">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Gestión de correo electrónico y agenda.</li>
+            <li>Atención al cliente y soporte administrativo.</li>
+            <li>Creación y gestión de bases de datos.</li>
+            <li>Redacción de informes y documentos.</li>
+            <li>Gestión de redes sociales.</li>
+        </ul>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <p>Aquí algunos ejemplos de trabajos realizados:</p>
+        <ul>
+            <li>Organización de agendas para equipos internacionales.</li>
+            <li>Diseño de presentaciones profesionales.</li>
+            <li>Optimización de procesos administrativos.</li>
+        </ul>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <p>Si estás interesado en mis servicios, no dudes en contactarme:</p>
+        <ul>
+            <li>Email: <a href="mailto:tucorreo@ejemplo.com">tucorreo@ejemplo.com</a></li>
+            <li>Teléfono: +34 123 456 789</li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/tuperfil" target="_blank">https://linkedin.com/in/tuperfil</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
